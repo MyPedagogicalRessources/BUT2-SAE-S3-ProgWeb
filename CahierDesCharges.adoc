@@ -1,0 +1,75 @@
+= Cahier des Charges - Application CheckYourMood
+:author: Franck Silvestre
+:icons: font
+:toc: left
+:sectnums:
+
+== Introduction
+
+La startup _CheckYourMood_ souhaite développer une première version de son application Web éponyme.
+Cette application doit permettre à un utilisateur enregistré sur la plateforme d'indiquer son humeur à différents moments de la journée afin de pouvoir disposer de visualisations sur son humeur au fil du temps en fonction de différents paramètres comme la période, le type d'humeur, etc.
+Le document suivant présente les exigences produits et projets permettant de livrer à la startup la première version de son projet en temps et en heure.
+Dans la suite du document, les termes "application" ou "plateforme" désignent de manière indifférente l'application Web _CheckYourMood_.
+
+== Exigences fonctionnelles
+
+Les exigences fonctionnelles sont décrites au format User Story. Elles sont regroupées en _feature_.
+
+=== _Feature_ "Gestion de mon compte" 
+
+Cette feature comprend les fonctionnalités relatives à la gestion de compte par un utilisateur.
+
+.User stories
+[cols="1,2,2"]
+|===
+|Identifiant exigence |Titre | Description
+
+|US001
+|Création d'un compte
+|En tant qu'utilisateur,
+Je veux m'enregistrer sur la plateforme
+Pour bénéficier des services de suivi de mon humeur.
+
+|US002
+|Authentification
+|En tant qu'utilisateur ayant un compte sur la plateforme, 
+Je veux m'authentifier avec un login et un mot de passe,
+Pour avoir accès à mes services personnalisés.
+
+|US003
+|Modification de mes données personnelles
+|En tant qu'utilisateur authentifié,
+Je veux modifier mes données personnelles,
+Pour maintenir à jour mes données en cas de changements dans ma vie
+
+|US004
+|Désinscription
+|En tant qu'utilisateur authentifié,
+Je veux supprimer mon compte de la plateforme,
+Pour ne pas laisser trainer des informations personnelles sur une plateforme dont je ne veux plus bénéficier des services. 
+|===
+
+== Exigences techniques
+
+.Environnements techniques
+[cols="1,2,2"]
+|===
+|Identifiant exigence |Périmètre | Exigences
+
+|TECH001
+|SGBD Relationnel
+|MySQL version 8 ou supérieure
+
+|TECH002
+|Langages de programmation _back-end_
+|Php version 8 ou supérieure, 
+
+|TECH003
+|Langages de programmation _front-end_
+|HTML 5, librairie Bootstrap version 5 ou supérieure pour les apports CSS et Javascript
+
+|TECH004
+|Gestion de version de code source
+|Git version 2.32 ou supérieure
+|===
+
