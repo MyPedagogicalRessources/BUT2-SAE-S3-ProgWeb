@@ -7,51 +7,115 @@
 == Introduction
 
 La startup _CheckYourMood_ souhaite développer une première version de son application Web éponyme.
+
 Cette application doit permettre à un utilisateur enregistré sur la plateforme d'indiquer son humeur à différents moments de la journée afin de pouvoir disposer de visualisations sur son humeur au fil du temps en fonction de différents paramètres comme la période, le type d'humeur, etc.
-Le document suivant présente les exigences produits et projets permettant de livrer à la startup la première version de son projet en temps et en heure.
+
+Ce document présente les exigences produits et projets permettant de livrer à la startup la première version de son projet en temps et en heure.
+
 Dans la suite du document, les termes "application" ou "plateforme" désignent de manière indifférente l'application Web _CheckYourMood_.
 
 == Exigences fonctionnelles
 
-Les exigences fonctionnelles sont décrites au format User Story. Elles sont regroupées en _feature_.
+Les exigences fonctionnelles sont décrites au format User Story. Elles sont regroupées en _features_. 
 
-=== _Feature_ "Gestion de mon compte" 
+La section dictionnaire décrit les notions clés mobilisées par l'application.
+
+=== Dictionnaire
+
+.Humeur
+Une humeur décrit un état psychologique d'une personne. Dans l'application CheckYourMood, une humeur est fournie par un utilisateur et est caractérisée par :
+
+* un libellé (par exemple "Colère", "Joie", etc.)
+* un emoji
+* une date et heure
+* un élément de context facultatif
+
+Les libellés possibles pour décrire une humeur sont fournis en annexe. Ils sont issus des travaux de recherche de Alan S. Cowen et Dacher Keltner. 
+
+=== _Feature_ F001 "Gestion de mon compte" 
 
 Cette feature comprend les fonctionnalités relatives à la gestion de compte par un utilisateur.
 
 .User stories
-[cols="1,2,2"]
+[cols="1,1,2"]
 |===
 |Identifiant exigence |Titre | Description
 
 |US001
 |Création d'un compte
-|En tant qu'utilisateur,
-Je veux m'enregistrer sur la plateforme
+|En tant qu'utilisateur, +
+Je veux m'enregistrer sur la plateforme, +
 Pour bénéficier des services de suivi de mon humeur.
 
 |US002
 |Authentification
-|En tant qu'utilisateur ayant un compte sur la plateforme, 
-Je veux m'authentifier avec un login et un mot de passe,
+|En tant qu'utilisateur ayant un compte sur la plateforme, +
+Je veux m'authentifier avec un login et un mot de passe, +
 Pour avoir accès à mes services personnalisés.
 
 |US003
 |Modification de mes données personnelles
-|En tant qu'utilisateur authentifié,
-Je veux modifier mes données personnelles,
+|En tant qu'utilisateur authentifié, +
+Je veux modifier mes données personnelles, +
 Pour maintenir à jour mes données en cas de changements dans ma vie
 
 |US004
 |Désinscription
-|En tant qu'utilisateur authentifié,
-Je veux supprimer mon compte de la plateforme,
+|En tant qu'utilisateur authentifié, +
+Je veux supprimer mon compte de la plateforme, +
 Pour ne pas laisser trainer des informations personnelles sur une plateforme dont je ne veux plus bénéficier des services. 
 |===
 
+=== _Feature_  F002 "Gestion de mes humeurs" 
+
+Cette feature comprend les fonctionnalités relatives à la gestion de son humeur par un utilisateur.
+
+.User stories
+[cols="1,1,2"]
+|===
+|Identifiant exigence |Titre | Description
+
+|US005
+|Saisie d'une humeur
+|En tant qu'utilisateur authentifié, +
+Je veux ajouter une humeur à tout instant de la journée, +
+Pour obtenir à terme le plus d'information possible sur mon humeur au fil du temps.
+
+|US005
+|Consultation de mes humeurs
+|En tant qu'utilisateur authentifié, +
+Je veux consulter la liste de mes humeurs suivant différents critère (date, libellé, etc.), +
+Pour me faire une idée de mes humeurs dans le temps.
+|===
+
+=== _Feature_ F003 "Visualisations de mes humeurs"
+
+En tant qu'utilisateur, +
+Je veux disposer de plusieurs visualisations, +
+Pour m'aider à suivre mes humeurs facilement dans le temps
+
+Les visualisations devront être paramétrables mais le besoin n'est pas plus explicité à ce stade. La MOE devra être force de proposition sur les US à développer.
+
+
 == Exigences techniques
 
-.Environnements techniques
+=== Architecture de l'application
+
+[cols="1,2,2"]
+|===
+|Identifiant exigence |Périmètre | Exigences
+
+|ARC001
+|Architecture 3-tiers
+|L'application est une application Web s'appuyant sur une architecture 3-tiers.
+
+|ARC002
+|Modele Vue Contrôleur
+|L'application est une application conçue sur la base du _design pattern_ MVC.
+|===
+
+=== Environnements techniques
+
 [cols="1,2,2"]
 |===
 |Identifiant exigence |Périmètre | Exigences
@@ -73,3 +137,36 @@ Pour ne pas laisser trainer des informations personnelles sur une plateforme don
 |Git version 2.32 ou supérieure
 |===
 
+== Annexes
+
+=== Annexe 1 - Libellés des humeurs
+
+. Admiration
+. Adoration
+. Appréciation esthétique
+. Amusement
+. Colère
+. Anxiété
+. Émerveillement
+. Malaise (embarrassement)
+. Ennui
+. Calme (sérénité)
+. Confusion
+. Envie (craving)
+. Dégoût
+. Douleur empathique
+. Intérêt étonné, intrigué
+. Excitation (montée d'adrénaline)
+. Peur
+. Horreur
+. Intérêt
+. Joie
+. Nostalgie
+. Soulagement
+. Romance
+. Tristesse
+. Satisfaction
+. Désir sexuel
+. Surprise
+
+Pour une version interactive (en anglais) : https://s3-us-west-1.amazonaws.com/emogifs/map.html# 
