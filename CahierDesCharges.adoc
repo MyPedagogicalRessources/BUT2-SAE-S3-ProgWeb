@@ -137,6 +137,7 @@ Les visualisations devront être paramétrables mais le besoin n'est pas plus ex
 |Git version 2.32 ou supérieure
 |===
 
+
 == Annexes
 
 === Annexe 1 - Libellés des humeurs
