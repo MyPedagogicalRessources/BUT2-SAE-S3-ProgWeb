@@ -30,7 +30,7 @@ Une humeur décrit un état psychologique d'une personne. Dans l'application Che
 * une date et heure
 * un élément de context facultatif
 
-Les libellés possibles pour décrire une humeur sont fournis en annexe. Ils sont issus des travaux de recherche de Alan S. Cowen et Dacher Keltner. 
+Les libellés possibles pour décrire une humeur sont fournis en <<_annexes>>. Ils sont issus des travaux de recherche de Alan S. Cowen et Dacher Keltner. 
 
 === _Feature_ F001 "Gestion de mon compte" 
 
