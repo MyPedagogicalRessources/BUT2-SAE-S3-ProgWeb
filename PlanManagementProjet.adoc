@@ -240,3 +240,7 @@ L'approche agile permet une validation de la construction du projet à l'issue d
     BIL001: À l'issue de chaque livraison majeure un bilan collectif doit être rédigé par l'équipe..
     
     BIL002: À l'issue de chaque livraison majeure un bilan individuel doit être rédigé par chaque membre de l'équipe. 
+
+== Modalités d'évaluation du projet
+
+La note attribuée sur la SAÉ sera calculée sur la base de la satisfaction des exigences produits et des exigences projets.
