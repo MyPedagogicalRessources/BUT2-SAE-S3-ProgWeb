@@ -1,0 +1,73 @@
+= SAÉ S3 - Application CheckYourMood
+:author: Franck Silvestre
+:icons: font
+:toc: left
+:sectnums:
+
+== Rappel du contenu du BO : SAÉ 3.Real.01 : Développement d’une application
+
+=== Compétences ciblées :
+
+- Développer — c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.
+- Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision,
+consommation de ressources..
+- Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des
+réseaux et optimiser le système informatique d’une organisation
+- Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise
+- Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique
+avec des méthodes classiques ou agiles
+- Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique
+
+=== Objectifs et problématique professionnelle :
+
+La problématique professionnelle est de créer, au sein d’une équipe, une application en suivant une démarche de développement itérative ou incrémentale.
+En partant d’un besoin décrit de manière imprécise ou incomplète par un client, l’objectif est de clarifier/compléter, collecter et
+formaliser le besoin puis de développer une application communicante intégrant la manipulation des données et respectant les paradigmes de qualité (ergonomie des IHM, qualité logicielle...).
+
+=== Descriptif générique :
+Cette SAÉ permet, après avoir collecté et formalisé les besoins d’un client, de développer une application de qualité répondant
+à ces besoins. L’application devra s’appuyer sur une base de données et sur un serveur.
+
+Les livrables attendus généralement dans le monde professionnel sont :
+
+- Documents de suivi du projet
+- Documents d’analyse et de conception
+- Code de l’application documenté suivant les règles de l’art
+- Jeux d’essais
+- Revue finale du projet
+- Guide d’utilisation
+
+=== Apprentissages critiques :
+
+- AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences
+- AC21.02 | Appliquer des principes d’accessibilité et d’ergonomie
+- AC21.03 | Adopter de bonnes pratiques de conception et de programmation
+- AC22.01 | Choisir des structures de données complexes adaptées au problème
+- AC23.01 | Concevoir et développer des applications communicantes
+- AC23.02 | Utiliser des serveurs et des services réseaux virtualisés
+- AC24.03 | Organiser la restitution de données à travers la programmation et la visualisation
+- AC24.04 | Manipuler des données hétérogènes
+- AC25.02 | Formaliser les besoins du client et de l’utilisateur
+- AC25.03 | Identifier les critères de faisabilité d’un projet informatique
+- AC25.04 | Définir et mettre en oeuvre une démarche de suivi de projet
+- AC26.02 | Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation
+- AC26.03 | Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique
+- AC26.04 | Rendre compte de son activité professionnelle
+
+=== Ressources mobilisées et combinées :
+
+- R3.01 | Développement web
+- R3.02 | Développement efficace
+- R3.03 | Analyse
+- R3.04 | Qualité de développement
+
+== Structure de la description de la SAÉ
+
+=== Le cahier des charges
+
+Le xref:CahierDesCharges.adoc[cahier des charges] présente les exigences fonctionnelles et techniques au démarrage du projet.
+
+
+=== Le plan de management de projet (PMP)
+
+Le xref:PlanManagementProjet.adoc[PMP] décrit la méthode et les livrables attendus au démarrage du projet.
