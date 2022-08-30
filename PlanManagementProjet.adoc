@@ -179,7 +179,7 @@ Cette section récapitule les livrables devant être produits dans le cadre du p
     - d'une description de points spécifiques techniques particuliers dépendants du projet (par exemple la sécurité sur un projet web, la présentation d'un algorithme complexe, etc.). 
     - Et de tous les éléments demandés par l'enseignant tuteur.
 
-=== Livrables projets
+=== Livrables projet
 
 ==== Adaptation du plan de gestion de projet
 

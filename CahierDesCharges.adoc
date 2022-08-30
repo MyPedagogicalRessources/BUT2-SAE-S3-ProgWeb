@@ -137,6 +137,29 @@ Les visualisations devront être paramétrables mais le besoin n'est pas plus ex
 |Git version 2.32 ou supérieure
 |===
 
+=== Contraintes de développement
+
+[cols="1,2,2"]
+|===
+|Identifiant exigence |Périmètre | Exigences
+
+|DEV001
+|Tests automatisés
+|Le code des services métier développés dans le Modèle de l'application font l'objet d'une couverture de code par les tests automatisés supérieure à 80% 
+|===
+
+    Peut être complété par des contraintes issues d'outils d'analyse statique de code.
+
+=== Contraintes d'exploitation
+
+[cols="1,2,2"]
+|===
+|Identifiant exigence |Périmètre | Exigences
+
+|EXPL001
+|Temps de réponse
+|Toutes les pages du site doivent s'afficher en moins de 0,1 secondes dans l'environnement de développement
+|===
 
 == Annexes
 
