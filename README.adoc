@@ -60,6 +60,12 @@ Les livrables attendus généralement dans le monde professionnel sont :
 - R3.02 | Développement efficace
 - R3.03 | Analyse
 - R3.04 | Qualité de développement
+- R3.05 | Programmation système
+- R3.06 | Architecture des réseaux
+- R3.07 | SQL dans un langage de programmation
+- R3.10 | Management des systèmes d’information
+- R3.12 | Anglais
+- R3.13 | Communication professionnelle
 
 == Structure de la description de la SAÉ
 
