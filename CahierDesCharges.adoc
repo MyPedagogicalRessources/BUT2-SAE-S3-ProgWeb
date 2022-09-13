@@ -159,6 +159,11 @@ Les visualisations devront être paramétrables mais le besoin n'est pas plus ex
 |EXPL001
 |Temps de réponse
 |Toutes les pages du site doivent s'afficher en moins de 0,1 secondes dans l'environnement de développement
+
+|EXPL002
+|Sauvegarde données quotidienne
+|Tous les jours à 3h du matin, un dump de la base de données doit être exécuté et envoyé sur un serveur de sauvegarde via le protocole SFTP ou équivalent.
+
 |===
 
 == Annexes
