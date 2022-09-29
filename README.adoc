@@ -1,7 +1,9 @@
-= SAÉ S3 - Application CheckYourMood
-:author: Franck Silvestre
+= SAÉ S3 - Introduction générale
+:author: Équipe pédagogique BUT Informatique de Rodez
+:title-page: true
 :icons: font
 :toc: left
+//:toc: left
 :sectnums:
 
 == Rappel du contenu du BO : SAÉ 3.Real.01 : Développement d’une application
@@ -71,9 +73,9 @@ Les livrables attendus généralement dans le monde professionnel sont :
 
 === Le cahier des charges
 
-Le xref:CahierDesCharges.adoc[cahier des charges] présente les exigences fonctionnelles et techniques au démarrage du projet.
+Pour chaque projet à réaliser, le cahier des charges du projet présente les exigences fonctionnelles et techniques au démarrage du projet.
 
 
 === Le plan de management de projet (PMP)
 
-Le xref:PlanManagementProjet.adoc[PMP] décrit la méthode et les livrables attendus au démarrage du projet.
+Le PMP décrit la méthode et les livrables attendus au démarrage du projet. Le PMP est commun à l'ensemble des projets.

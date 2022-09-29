@@ -1,5 +1,8 @@
-= Plan de management de projet
-:author: Franck Silvestre
+= SAÉ S3 - Plan de management de projet
+:author: Équipe pédagogique BUT Informatique de Rodez
+:doctype: book
+:chapter-signifier: Chapitre
+:toc-title: Table des matières
 :icons: font
 :toc: left
 :sectnums:
@@ -150,7 +153,7 @@ Afin de suivre l'évolution du travail pendant un sprint, on utilise un tableau 
     DRI001 : Les documents bureautiques (comptes-rendus, documentation, etc.) des livrables produit ou projet doivent être conçus à l'aide de la suite bureautique Google et stockés sur un Drive attaché à un compte de l'IUT de Rodez appartenant à un des membres de l'équipe.
 
     DRI002 : Ces documents sont regroupés dans un dossier partagé avec l'ensemble des parties prenantes (enseignant tuteur, client, enseignant suivi de projet). 
-    Nom du dossier  : SAE XX (No du projet)  - Intitulé de la SAE - S3.
+    Nom du dossier  : SAE XX (No du projet)  - Intitulé du projet de la SAE - S3.
 
 == Livrables
 
@@ -241,6 +244,3 @@ L'approche agile permet une validation de la construction du projet à l'issue d
     
     BIL002: À l'issue de chaque livraison majeure un bilan individuel doit être rédigé par chaque membre de l'équipe. 
 
-== Modalités d'évaluation du projet
-
-La note attribuée sur la SAÉ sera calculée sur la base de la satisfaction des exigences produits et des exigences projets.
