@@ -65,6 +65,8 @@ Les livrables attendus généralement dans le monde professionnel sont :
 - R3.05 | Programmation système
 - R3.06 | Architecture des réseaux
 - R3.07 | SQL dans un langage de programmation
+- R3.08 | Probabilités
+- R3.09 | Cryptographie et sécurité
 - R3.10 | Management des systèmes d’information
 - R3.12 | Anglais
 - R3.13 | Communication professionnelle
