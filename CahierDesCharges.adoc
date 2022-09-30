@@ -1,5 +1,6 @@
 = Cahier des Charges - Application CheckYourMood
 :author: Franck Silvestre
+:title-page: true
 :icons: font
 :toc: left
 :sectnums:
