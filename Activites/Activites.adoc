@@ -1,5 +1,7 @@
 = SAÉ S3 - Activités
 :author: Franck  Silvestre
+:revdate: 9 octobre 2022
+:revnumber: 1.0
 :title-page: true
 :icons: font
 :toc: left

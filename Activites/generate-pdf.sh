@@ -3,4 +3,4 @@ bundle exec asciidoctor \
 -r asciidoctor-diagram \
 -b pdf \
 Activites.adoc \
--o SAE-S3-Activites.pdf
+-o SAE-S3-Activites.pdf 
