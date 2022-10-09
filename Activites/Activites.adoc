@@ -1,0 +1,44 @@
+= SAÉ S3 - Activités
+:author: Franck  Silvestre
+:title-page: true
+:icons: font
+:toc: left
+:sectnums:
+
+== Introduction
+
+* L'apprentissage critique "AC 2 Formaliser les besoins" de la compétence 5 est en lien directe avec la ressource R3-03 Analyse.
+* 2 notes seront fournies pour l'évaluation de l'"AC 2 Formaliser les besoins" :
+** 1 note issue d'un contrôle individuel sur table,
+** 1 note sur livrable pouvant être modulée pour chaque membre de l'équipe projet. 
+
+== Activité 1
+
+=== Lecture active du plan de management
+
+NOTE: Travail individuel 
+
+. Lire le plan de management en relevant toutes les exigences qui concernent l'analyse et la documentation des exigences.
+
+NOTE: Travail en équipe projet
+
+[start=2]
+. Créez un document Google Sheet "Synthèse des exigences" et mettez en commun les exigences que vous avez identifiées dans un onglet "R3-03 Analyse" (1 ligne par exigence).
+. Complétez la structure du document pour qu'elle corresponde à une grille d'auto-évaluation permettant d'auto-évaluer à période régulière la performance de l'équipe sur l'ensemble de ces exigences.
+
+=== Initialisation du backlog produit
+
+NOTE: Travail en équipe projet
+
+. Si cela n'a pas encore été fait, créez le projet Github correspondant au développement d'application Web de votre paquet ("CheckYourMood" ou "Cabinet Médical").
+. Si cela n'a pas encore été fait, créez le board Zenhub associé au projet.
+. Identifiez les _features_ de votre projet et créez les _epics_ associées dans le board Zenhub.
+. À partir du cahier des charges, rédigez les US du backlog produit selon une approche _pair programming_ décrite par votre enseignant.
+
+=== Préparation de la première *conversation* avec le client
+
+NOTE: Travail en équipe projet
+
+. Listez les questions vous permettant d'obtenir les détails sur les US (en vue de rédiger les tests d'acceptation, en vue d'obtenir une priorisation des US dans le backlog). 
+. Préparez le questionnaire support à la conversation.
+. Programmez le RDV avec votre client. 
