@@ -1,7 +1,7 @@
 = SAÉ S3 - Activités
 :author: Franck  Silvestre
 :revdate: 9 octobre 2022
-:revnumber: 1.0
+:revnumber: 1.1
 :title-page: true
 :icons: font
 :toc: left
@@ -20,7 +20,7 @@
 
 NOTE: Travail individuel 
 
-. Lire le plan de management en relevant toutes les exigences qui concernent l'analyse et la documentation des exigences.
+. Lire le plan de management de projet en relevant toutes les exigences projet qui concernent l'analyse et la documentation des exigences produit.
 
 NOTE: Travail en équipe projet
 
