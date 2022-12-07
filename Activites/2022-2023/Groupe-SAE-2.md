@@ -24,4 +24,9 @@ Mention légale à mettre comme item de backlog non prioritaire.
 ## Retours sur la définition de fini
 
 
+## Revue sprint 1 -> 30/11/22
+Toutes les US du sprint backlog
 
+Conseils :
+- partir du board agile
+- démo sur video projecteur...

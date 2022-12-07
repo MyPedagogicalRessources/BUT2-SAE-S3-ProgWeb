@@ -24,3 +24,11 @@ Le dictionnaire de données est sorti du backlog
 
 Pas de définition de fini.
 
+## Revue de sprint 0
+
+- données insérées messages pas joli
+
+## Rétrospective
+- partir du backlog pour la revue
+- défintion finie mise en œeuvre effectivement avec autorisation de démarrer avec moins d'ambition.
+- tests d'acceptations cohérents et passent.
