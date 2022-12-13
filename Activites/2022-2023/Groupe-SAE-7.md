@@ -24,3 +24,9 @@ RAF
 
 1ère version pas "reviewable"
 
+
+## Entretien du 13/12/2022
+
+Questions :
+- sur passage de PDO 
+- sur gestion de la session

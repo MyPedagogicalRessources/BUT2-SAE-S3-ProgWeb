@@ -29,3 +29,12 @@ Mettre les règles métiers dans le document dictionnaire de données dédié
 
 Pas de définition de fini
 
+ ## Entretien du 13/12/22
+
+ Questions :
+ 
+ - connexion : gestion rôle medecin, admin ; découpage par feature.
+ - recherche par critère : découpage MVC clarifié
+ 
+ Remarques : maintien documentation du code.
+

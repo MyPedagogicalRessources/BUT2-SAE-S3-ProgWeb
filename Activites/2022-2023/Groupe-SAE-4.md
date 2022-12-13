@@ -30,3 +30,9 @@ Créer le dictionnaire de données et règles métier dans un document dédié a
 
 ## Retours sur la définition de fini
 
+## Réunion du 13/12/2022
+
+Questions :
+
+- Technique : rien à voir car MVC non commencé.
+ 
