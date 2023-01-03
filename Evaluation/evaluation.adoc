@@ -1,0 +1,18 @@
+= SAE3 - 2022-2023 - Contrôle individuel
+:author: Franck Silvestre
+:revdate: 29 novembre 2022
+:revnumber: 1.0
+:icons: font
+:sectnums:
+:source-highlighter: highlightjs
+:revealjs_theme: beige
+:revealjs_hash: true
+:revealjs_height: 1200
+:revealjs_width: 1400
+:revealjs_viewDistance: 5
+:revealjs_slideNumber: c/t
+
+
+include::01_Evaluation.adoc[]
+
+

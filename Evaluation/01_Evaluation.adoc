@@ -1,0 +1,24 @@
+* Durée : 33 mn (41mn pour les tiers temps) 
+* Aucun document autorisé.
+* Barême indiqué à titre indicatif.
+
+== Questions générales sur le projet Web 
+
+Ces questions ne rapportent pas de point ; elles en font perdre (jusqu'à 3 points) si les réponses ne sont pas cohérentes au sein d'un même groupe.
+
+. Quel est le projet Web sur lequel vous travaillez ?
+. Quels sont les autres membres de votre groupe ?
+. Sur le projet Web, qui est le _Product owner_ en cours ?
+
+== Questions relatives à votre production
+
+[start=1]
+. Écrivez une des US avec ses tests d'acceptation sur laquelle vous avez travaillez (3 points).
+
+L'US doit être actuellement sur le _board_ Zenhub du projet correspondant. Il n'est pas demandé de connaitre mot à mot l'US rédigée sur le _board_ mais les divergences doivent être minimes avec votre réponse.
+
+[start=2]
+. Décrivez une de vos contributions sur le projet Web mobilisant le _design pattern_ MVC (7 points).
+
+La description doit-être la plus complète possible : elle doit rappeler succinctement l'item de _backlog_ auquel elle se réfère, le travail réalisé, la ou les difficultés rencontrées si il y en a et les éventuelles solutions originales apportées.
+
