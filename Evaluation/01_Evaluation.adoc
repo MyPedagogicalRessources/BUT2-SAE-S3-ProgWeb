@@ -13,7 +13,7 @@ Ces questions ne rapportent pas de point ; elles en font perdre (jusqu'à 3 poin
 == Questions relatives à votre production
 
 [start=1]
-. Écrivez une des US avec ses tests d'acceptation sur laquelle vous avez travaillez (3 points).
+. Écrivez une des US avec ses tests d'acceptation sur laquelle vous avez travaillé (3 points).
 
 L'US doit être actuellement sur le _board_ Zenhub du projet correspondant. Il n'est pas demandé de connaitre mot à mot l'US rédigée sur le _board_ mais les divergences doivent être minimes avec votre réponse.
 
