@@ -106,7 +106,7 @@ Les users stories devront être valorisées afin de savoir ce que l'on va pouvoi
 - La revue de sprint : cette réunion se déroule en fin de sprint pour montrer au client et aux autres parties prenantes intéressées  la version du produit obtenue en fin de sprint. Le client peut alors valider les items de backlog finis ou émettre des réserves sur les items non satisfaisants. Les items validés par le client sortent du backlog. Les autres restent dans le backlog et pourront être sélectionnés de nouveau pour le sprint suivant. L'objectif de la revue de sprint est l'amélioration du produit.
 - La rétrospective de sprint  : cette réunion clôture le sprint et ne concerne que l'équipe de développement ; elle permet à chacun d'exprimer les points forts et les points faibles du processus révélés par le sprint venant de s'écouler. Des actions pour améliorer le processus sont décidées pendant cette réunion. Le plan de management et la définition de fini peuvent être modifiés à la suite d'une rétrospective. L'objectif de la rétrospective de sprint est l'amélioration du processus.
 
-Quand une équipe “junior” est accompagnée par un “coach” agile, ce qui est le cas dans les projets tutorés, la réunion d'accompagnement par le coach s'ajoute aux réunions précédentes.
+Quand une équipe “junior” est accompagnée par un “coach” agile, ce qui est le cas dans les projets de SAÉ, la réunion d'accompagnement par le coach s'ajoute aux réunions précédentes.
 
     REU001 : Les réunions de sprint doivent être mises en œuvre durant toute la durée du projet.
     
