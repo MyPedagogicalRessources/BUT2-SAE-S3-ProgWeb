@@ -59,6 +59,15 @@ Un spectacle est une prestation de durée limitée se produisant sur une scène 
 * Liste des intervenants hors scène (régisseurs son et lumière, etc.)
 * Un responsable du spectacle.
 
+.Intervenant
+Un intervenant est une personne participant à un spectacle sur scène ou hors scène. Un intervenant est caractérisé par :
+
+* Un nom
+* Un prénom
+* Une adresse email
+
+Un intervenant n'est nécessairement un utilisateur de l'application.
+
 .Utilisateur
 Un utilisateur est une personne disposant d'un compte sur la plateforme. Un utilisateur est caractérisé par :
 
@@ -75,7 +84,7 @@ Un utilisateur est une personne disposant d'un compte sur la plateforme. Un util
 Un responsable de festival dispose de tous les droits relatifs  aux festivals dont il a la responsabilité. Il peut créer des festivals et modifier/supprimer les festivals dont il est responsable. Un responsable de festival dispose de tous les droits d'un _organisateur de festival_.
 
 .Organisateur de festival
-Un organisateur de festival peut modifier les caractéristiques d'un festival dont il est organisateur. Il peut donc participer à la planification du programme des spectacles.
+Un organisateur de festival peut modifier les caractéristiques d'un festival dont il est organisateur. Il peut donc participer à la planification du programme des spectacles. Un responsable de festival est de fait un organisateur de ce festival.
 
 .Responsable de spectacle
 Un responsable de spectacle dispose de tous les droits relatifs  aux spectacles dont il a la responsabilité. Il peut créer des spectacles et modifier/supprimer les spectacles dont il est responsable.
@@ -116,7 +125,7 @@ Pour ne pas laisser trainer des informations personnelles sur une plateforme don
 
 === _Feature_ F002 "Gestion des festivals (hors planification)" 
 
-Cette feature comprend les fonctionnalités relatives à la gestion de festivals par un utilisateur.
+Cette feature comprend les fonctionnalités relatives à la gestion de festivals par un utilisateur. Cette feature ne comprend pas la partie planification.
 
 .User stories
 [cols="1,1,2"]
@@ -153,6 +162,65 @@ Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plate
 |En tant qu'organisateur d'au moins un festival, +
 Je peux accéder à la liste des festivals dont je suis organisateur, +
 Afin d'accéder facilement à un festival sur lequel je dois travailler'.
+|===
+
+=== _Feature_ F003 "Gestion des spectacles" 
+
+Cette feature comprend les fonctionnalités relatives à la gestion de spectacles par un utilisateur.
+
+.User stories
+[cols="1,1,2"]
+|===
+|Identifiant exigence |Titre | Description
+
+|F003US001
+|Création d'un spectacle
+|En tant qu'utilisateur authentifié, +
+Je peux créer un nouveau spectacle dont je suis responsable sur l'application, +
+Afin de gérer les caractéristiques du spectacle.
+
+
+|F003US002
+|Modification des caractéristiques d'un spectacle
+|En tant que responsable d'un spectacle, +
+Je peux modifier les caractéristiques du festival, +
+Afin de pouvoir reporter les changements relatifs à ce spectacle en lien avec des aléas.
+
+|F003US003
+|Suppression d'un spectacle
+|En tant que responsable d'un spectacle, +
+Je peux supprimer le spectacle, +
+Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plateforme.
+
+|F003US004
+|Accès à la liste de mes spectacles
+|En tant que responsable d'au moins un spectacle, +
+Je peux accéder à la liste des spectacles dont je suis responsable, +
+Afin d'accéder facilement à un festival sur lequel je dois travailler'.
+
+|F003US005
+|Ajout d'un intervenant
+|En tant que responsable d'un spectacle, +
+Je peux ajouter un intervenant à une des deux listes des intervenants, +
+Afin de maintenir à jour la liste des participants au spectacle.
+
+|F003US006
+|Modification d'un intervenant
+|En tant que responsable d'un spectacle, +
+Je peux modifier les données relatives à un intervenant, +
+Afin de maintenir à jour la liste des participants au spectacle.
+
+|F003US007
+|Supression d'un intervenant
+|En tant que responsable d'un spectacle, +
+Je peux supprimer un intervenant, +
+Afin de maintenir à jour la liste des participants au spectacle.
+
+|F003US008
+|Ajout d'intervenants par lot
+|En tant que responsable d'un spectacle, +
+Je peux ajouter une liste d'intervenants en important un fichier au format CSV, +
+Afin de maintenir à jour la liste des participants au spectacle.
 
 |===
 
