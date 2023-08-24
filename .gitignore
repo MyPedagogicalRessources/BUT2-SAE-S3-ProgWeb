@@ -4,3 +4,4 @@ reveal.js
 node_modules
 .DS_Store
 *.lock
+!SAE-S3*.pdf
