@@ -1,4 +1,4 @@
-= Cahier des Charges - Application CheckYourMood
+= Cahier des Charges - Application Festiplan
 :author: Franck Silvestre
 :title-page: true
 :icons: font
@@ -7,13 +7,13 @@
 
 == Introduction
 
-La startup _CheckYourMood_ souhaite développer une première version de son application Web éponyme.
+La startup _Festiplan_ souhaite développer une première version de son application Web éponyme.
 
-Cette application doit permettre à un utilisateur enregistré sur la plateforme d'indiquer son humeur à différents moments de la journée afin de pouvoir disposer de visualisations sur son humeur au fil du temps en fonction de différents paramètres comme la période, le type d'humeur, etc.
+Cette application doit permettre la gestion de la planification des spectacles (pièces de théatre, concerts) sur les différentes scènes mise à disposition par les organisateurs du festival.
 
 Ce document présente les exigences produits et projets permettant de livrer à la startup la première version de son projet en temps et en heure.
 
-Dans la suite du document, les termes "application" ou "plateforme" désignent de manière indifférente l'application Web _CheckYourMood_.
+Dans la suite du document, les termes "application" ou "plateforme" désignent de manière indifférente l'application Web _Festiplan_.
 
 == Exigences fonctionnelles
 
@@ -23,17 +23,44 @@ La section dictionnaire décrit les notions clés mobilisées par l'application.
 
 === Dictionnaire
 
-.Humeur
-Une humeur décrit un état psychologique d'une personne. Dans l'application CheckYourMood, une humeur est fournie par un utilisateur et est caractérisée par :
+.Festival
+Un festival regroupe un ensemble de prestations (spectacles) se déroulant sur différents emplacements dans une zone géographique délimitée. Un festival se déroule sur une période finie de quelques jours. Un festival est porté par un organisateur du festival pouvant être composé d'une équipe de personnes. Un festival est caractérisé par :
 
-* un libellé (par exemple "Colère", "Joie", etc.)
-* un emoji
-* une date et heure
-* un élément de context facultatif
+* un nom
+* Une description (1000 caractères max)
+* Une illustation optionnelle (une image au format GIF, JPEG ou PNG ayant pour taille max (800x600))
+* Une date de début et une date de fin
+* Au moins une catégorie (musique, théatre, cirque, danse, projection de film)
+* Liste de scènes
+* Liste des membres de l'équipe organisatrice
+* Un responsable du festival (appartenant à la l'équipe organisatrice).
 
-Les libellés possibles pour décrire une humeur sont fournis en <<_annexes>>. Ils sont issus des travaux de recherche de Alan S. Cowen et Dacher Keltner. 
+.Scène
+Une scène est un lieu pouvant accueillir un spectacle du festival.
+Une scène est caractérisée par :
 
-=== _Feature_ F001 "Gestion de mon compte" 
+* Un festival
+* Un nom
+* Une taille (petite, moyenne, grande)
+* Un nombre de spectateurs maximum
+* les coordonnées GPS de son emplacement
+
+.Spectacle
+Un spectacle est une prestation de durée limitée se produisant sur une scène du festival et est caractérisé par :
+
+* Un titre
+* Une description (1000 caractères max)
+* Une illustation optionnelle (une image au format GIF, JPEG ou PNG ayant pour taille max (800x600))
+* Une durée en minutes
+* au moins une catégorie (concert, pièce de théatre, cirque, danse, projection de film)
+* Taille de surface de scène requise (petite, moyenne, grande)
+* Liste des intervenants sur scène (acteurs, musiciens, danseurs)
+* Liste des intervenants hors scène (régisseurs son et lumière, etc.)
+* Un responsable du spectacle.
+
+ 
+
+=== _Feature_ F001 "Gestion des comptes et des rôles" 
 
 Cette feature comprend les fonctionnalités relatives à la gestion de compte par un utilisateur.
 
