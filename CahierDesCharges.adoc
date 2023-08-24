@@ -148,7 +148,7 @@ Afin de pouvoir reporter les changements relatifs à ce festival en lien avec de
 Je peux supprimer le festival, +
 Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plateforme.
 
-|F002US003
+|F002US005
 |Accès à la liste de mes festivals
 |En tant qu'organisateur d'au moins un festival, +
 Je peux accéder à la liste des festivals dont je suis organisateur, +
