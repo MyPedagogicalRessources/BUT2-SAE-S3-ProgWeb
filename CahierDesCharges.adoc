@@ -32,9 +32,11 @@ Un festival regroupe un ensemble de prestations (spectacles) se déroulant sur d
 * Une illustation optionnelle (une image au format GIF, JPEG ou PNG ayant pour taille max (800x600))
 * Une date de début et une date de fin
 * Au moins une catégorie (musique, théatre, cirque, danse, projection de film)
-* Liste de scènes
-* Liste des membres de l'équipe organisatrice
+* Une liste de scènes
+* Une liste des membres de l'équipe organisatrice
+* Une grille journalière de contrainte (GriJ)
 * Un responsable du festival (appartenant à la l'équipe organisatrice).
+* Une liste de spectacles
 
 .Scène
 Une scène est un lieu pouvant accueillir un spectacle du festival.
@@ -67,6 +69,15 @@ Un intervenant est une personne participant à un spectacle sur scène ou hors s
 * Une adresse email
 
 Un intervenant n'est nécessairement un utilisateur de l'application.
+
+.Grille journalière contrainte
+Une grille journalière contrainte (GriJ) permet à un organisateur de festival de spécifier les contraintes journalières pour la planification des spectacles.
+Une GriJ est caractérisée par :
+
+* Une heure de début des spectacles dans la journée.
+* Une heure de fin des spectacles dans la journée.
+* Une durée minimale entre deux spectacles (pour débarasser la scène du spectacle terminé et préparer la scène du spectacle suivant)
+
 
 .Utilisateur
 Un utilisateur est une personne disposant d'un compte sur la plateforme. Un utilisateur est caractérisé par :
@@ -162,6 +173,14 @@ Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plate
 |En tant qu'organisateur d'au moins un festival, +
 Je peux accéder à la liste des festivals dont je suis organisateur, +
 Afin d'accéder facilement à un festival sur lequel je dois travailler'.
+
+
+|F002US006
+|Accès à la liste des spectacles
+|En tant qu'organisateur d'au moins un festival, +
+Je peux accéder à la liste des spectacles, +
+Afin de pourvoir sélectionner les spectacles que je veux intégrer dans le festival.
+
 |===
 
 === _Feature_ F003 "Gestion des spectacles" 
@@ -224,6 +243,45 @@ Afin de maintenir à jour la liste des participants au spectacle.
 
 |===
 
+=== _Feature_ F004 "Planification du festival" 
+
+Cette feature comprend les fonctionnalités relatives à la planification de spectacles pour un festival donné.
+
+.User stories
+[cols="1,1,2"]
+|===
+|Identifiant exigence |Titre | Description
+
+
+|F004US001
+|Sélection des spectacles pour un festival
+|En tant qu'organisateur d'un festival accédant à la liste des spectacles, +
+Je peux sélectionner/désélectionner les spectacles, +
+Afin de pourvoir spécifier rapidement les spectacles à intégrer dans le festival.
+
+|F004US002
+|Création de la grille journalière contrainte (GriJ)
+|En tant qu'organisateur de festival, +
+Je peux créer la GriJ pour le festival, +
+Afin de spécifier les contraintes journalières pour la planification.
+
+|F004US003
+|Déclenchement de la génération de la planification
+|En tant qu'organisateur de festival, +
+Je peux déclencher la génération automatique de la planifiction du festival, +
+Afin d'obtenir sans effort la planification du festival rapidement et dans le respect des contranites de la GriJ et des caractéristiques des spectacles'.
+
+
+|F004US003
+|Consultation de la planification
+|En tant qu'organisateur de festival, +
+Je peux consulter le résultat de la génération automatique de la planifiction du festival, +
+Afin de vérifier que le résultat est satisfaisant.
+|===
+
+.Quelques règles métiers complémentaires
+
+Nous travaillons sur des festivals dans lesquels un spectacle n'est programmé qu'une seule fois sur la durée du festival.
 
 == Exigences techniques
 
