@@ -33,8 +33,8 @@ NOTE: Travail en équipe projet
 NOTE: Travail en équipe projet
 
 . Si cela n'a pas encore été fait, créez le projet Github correspondant au développement d'application Web de votre paquet ("CheckYourMood" ou "Cabinet Médical").
-. Si cela n'a pas encore été fait, créez le board Zenhub associé au projet.
-. Identifiez les _features_ de votre projet et créez les _epics_ associées dans le board Zenhub.
+. Si cela n'a pas encore été fait, créez le board associé au projet à l'aide de Github Project.
+. Identifiez les _features_ de votre projet et créez les _epics_ associées dans le board.
 . À partir du cahier des charges, rédigez les US du backlog produit selon une approche _pair programming_ décrite par votre enseignant.
 
 === Préparation de la première *conversation* avec le client

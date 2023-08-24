@@ -140,13 +140,13 @@ Les outils sont indispensables à la mise en œuvre d'un processus. Cette sectio
 
     Proj019 : Le workflow Github flow doit être utilisé pour la gestion des contributions des différents membres du projet.
 
-=== Zenhub
+=== Github Project
 
-    ZEN001 : Le plugin Zenhub (installable sur les navigateurs les plus courants) doit être utilisé pour la gestion du backlog. 
+    GPRO001 : Github Project doit être utilisé pour la gestion du backlog. 
 
-Afin de suivre l'évolution du travail pendant un sprint, on utilise un tableau (board agile ou kanban) permettant d'indiquer visuellement le changement d'état des items du backlog. Zenhub permet aussi de gérer le board agile. 
+Afin de suivre l'évolution du travail pendant un sprint, on utilise un tableau (board agile ou kanban) permettant d'indiquer visuellement le changement d'état des items du backlog. Github Project permet aussi de gérer le board agile. 
 
-    ZEN002 : Le plugin Zenhub doit être utilisé pour la gestion du board agile.
+    GPRO002 : Github Project doit être utilisé pour la gestion du board agile.
 
 === Google Drive
 
@@ -196,12 +196,12 @@ Le fichier README.md à la racine du projet sur Github présente une fiche synth
     - le nom du projet ;
     - la description du projet en 10 ligne maximum ;
     - les membres de l'équipe ainsi que la répartition des rôles.
-    - Le lien vers le board Zenhub
+    - Le lien vers le board (Github Project)
     - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
 
 ==== Le board agile
 
-- Le board agile géré via Zenhub. 
+- Le board agile géré via Github Project. 
 
 ==== Suivi des temps individuels
 
@@ -231,7 +231,7 @@ L'approche agile permet une validation de la construction du projet à l'issue d
     - la description du projet en 10 lignes maximum ;
     - les membres de l'équipe ainsi que la répartition des rôles.
     - Le lien vers le projet Github
-    - Le lien vers le board Zenhub
+    - Le lien vers le board (Github Project)
     - Le lien vers le dossier Google Drive contenant les documents relatifs au projet. 
     - L'intitulé suivant complété par le client :”Je soussigné …………….. représentant le client du projet……………… atteste réceptionner ce jour ledit projet. ”
     - Un espace de commentaires pour le client
