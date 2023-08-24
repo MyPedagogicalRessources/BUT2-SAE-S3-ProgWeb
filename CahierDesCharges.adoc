@@ -59,10 +59,17 @@ Un spectacle est une prestation de durée limitée se produisant sur une scène 
 * Liste des intervenants hors scène (régisseurs son et lumière, etc.)
 * Un responsable du spectacle.
 
-=== Rôles
+.Utilisateur
+Un utilisateur est une personne disposant d'un compte sur la plateforme. Un utilisateur est caractérisé par :
 
-.Super-utilisateur
-Un super-utilisateur dispose de tous les droits sur la plateforme. Il est notamment celui qui peut affecter tout type de rôle à un autre utilisateur.
+* Un nom
+* Un prénom
+* Une adresse email
+* Un login
+* Un mot de passe
+
+
+=== Rôles
 
 .Responsable de festival
 Un responsable de festival dispose de tous les droits relatifs  aux festivals dont il a la responsabilité. Il peut créer des festivals et modifier/supprimer les festivals dont il est responsable. Un responsable de festival dispose de tous les droits d'un _organisateur de festival_.
@@ -73,7 +80,7 @@ Un organisateur de festival peut modifier les caractéristiques d'un festival do
 .Responsable de spectacle
 Un responsable de spectacle dispose de tous les droits relatifs  aux spectacles dont il a la responsabilité. Il peut créer des spectacles et modifier/supprimer les spectacles dont il est responsable.
 
-=== _Feature_ F001 "Gestion des comptes et des rôles" 
+=== _Feature_ F001 "Gestion des comptes" 
 
 Cette feature comprend les fonctionnalités relatives à la gestion des comptes par un utilisateur.
 
@@ -82,29 +89,71 @@ Cette feature comprend les fonctionnalités relatives à la gestion des comptes 
 |===
 |Identifiant exigence |Titre | Description
 
-|US001
+|F001US001
 |Création de compte
-|En tant que super-utilisateur de la plateforme, +
-Je veux m'enregistrer sur la plateforme, +
-Pour bénéficier des services de suivi de mon humeur.
+|En tant que  futur utilisateur de la plateforme, +
+Je peux créer un compte sur l'application, +
+Afin de bénéficier des services de la plateforme.
 
-|US002
+|F001US002
 |Authentification
 |En tant qu'utilisateur ayant un compte sur la plateforme, +
 Je veux m'authentifier avec un login et un mot de passe, +
 Pour avoir accès à mes services personnalisés.
 
-|US003
+|F001US003
 |Modification de mes données personnelles
 |En tant qu'utilisateur authentifié, +
 Je veux modifier mes données personnelles, +
 Pour maintenir à jour mes données en cas de changements dans ma vie
 
-|US004
+|F001US004
 |Désinscription
 |En tant qu'utilisateur authentifié, +
 Je veux supprimer mon compte de la plateforme, +
 Pour ne pas laisser trainer des informations personnelles sur une plateforme dont je ne veux plus bénéficier des services. 
+|===
+
+=== _Feature_ F002 "Gestion des festivals (hors planification)" 
+
+Cette feature comprend les fonctionnalités relatives à la gestion de festivals par un utilisateur.
+
+.User stories
+[cols="1,1,2"]
+|===
+|Identifiant exigence |Titre | Description
+
+|F002US001
+|Création d'un festival
+|En tant qu'utilisateur authentifié, +
+Je peux créer un nouveau festival dont je suis responsable sur l'application, +
+Afin de gérer les caractéristiques et la planification du festival.
+
+
+|F002US002
+|Ajout d'un organisateur au festival
+|En tant que responsable de festival, +
+Je peux affecter un nouvel organisateur du festival en renseignant le login ou l'email du nouvel organisateur  , +
+Afin de pourvoir gérer à plusieur les caractéristiques et la planification du festival.
+
+|F002US003
+|Modification des caractéristiques d'un festival
+|En tant qu'organisateur d'un festival, +
+Je peux modifier les caractéristiques du festival, +
+Afin de pouvoir reporter les changements relatifs à ce festival en lien avec des aléas.
+
+|F002US004
+|Suppression d'un festival
+|En tant que responsable d'un festival, +
+Je peux supprimer le festival, +
+Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plateforme.
+
+|F002US003
+|Accès à la liste de mes festivals
+|En tant qu'organisateur d'au moins un festival, +
+Je peux accéder à la liste des festivals dont je suis organisateur, +
+Afin d'accéder facilement à un festival sur lequel je dois travailler'.
+
 |===
 
 
