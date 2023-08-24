@@ -20,6 +20,7 @@ Dans la suite du document, les termes "application" ou "plateforme" désignent d
 Les exigences fonctionnelles sont décrites au format User Story. Elles sont regroupées en _features_. 
 
 La section dictionnaire décrit les notions clés mobilisées par l'application.
+La section rôle spécifie les rôles endossables par les utilisateurs dans la plateforme. 
 
 === Dictionnaire
 
@@ -58,9 +59,23 @@ Un spectacle est une prestation de durée limitée se produisant sur une scène 
 * Liste des intervenants hors scène (régisseurs son et lumière, etc.)
 * Un responsable du spectacle.
 
+=== Rôles
+
+.Super-utilisateur
+Un super-utilisateur dispose de tous les droits sur la plateforme. Il est notamment celui qui peut affecter tout type de rôle à un autre utilisateur.
+
+.Responsable de festival
+Un responsable de festival dispose de tous les droits relatifs  aux festivals dont il a la responsabilité. Il peut créer des festivals et modifier/supprimer les festivals dont il est responsable. Un responsable de festival dispose de tous les droits d'un _organisateur de festival_.
+
+.Organisateur de festival
+Un organisateur de festival peut modifier les caractéristiques d'un festival dont il est organisateur. Il peut donc participer à la planification du programme des spectacles.
+
+.Responsable de spectacle
+Un responsable de spectacle dispose de tous les droits relatifs  aux spectacles dont il a la responsabilité. Il peut créer des spectacles et modifier/supprimer les spectacles dont il est responsable.
+
 === _Feature_ F001 "Gestion des comptes et des rôles" 
 
-Cette feature comprend les fonctionnalités relatives à la gestion de compte par un utilisateur.
+Cette feature comprend les fonctionnalités relatives à la gestion des comptes par un utilisateur.
 
 .User stories
 [cols="1,1,2"]
@@ -68,8 +83,8 @@ Cette feature comprend les fonctionnalités relatives à la gestion de compte pa
 |Identifiant exigence |Titre | Description
 
 |US001
-|Création d'un compte
-|En tant qu'utilisateur, +
+|Création de compte
+|En tant que super-utilisateur de la plateforme, +
 Je veux m'enregistrer sur la plateforme, +
 Pour bénéficier des services de suivi de mon humeur.
 
