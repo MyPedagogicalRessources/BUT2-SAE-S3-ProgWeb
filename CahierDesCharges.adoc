@@ -339,3 +339,53 @@ Nous travaillons sur des festivals dans lesquels un spectacle n'est programmé q
 |Tous les jours à 3h du matin, un dump de la base de données doit être exécuté et envoyé sur un serveur de sauvegarde via le protocole SFTP ou équivalent.
 
 |===
+
+== Livrables produit
+
+=== Les spécifications des exigences produit
+
+[cols="1,2"]
+|===
+|Identifiant livrable | Description
+
+|SPEC001
+|Le backlog pour les user stories et autres exigences non transverses.
+
+|SPEC002
+|Le document de "définition de fini" pour les exigences transverses.
+|===
+
+
+=== Code source
+
+[cols="1,2"]
+|===
+|Identifiant livrable | Description
+
+|SRC001
+|Le code source hébergé sur Github.
+|===
+
+
+=== La documentation 
+
+
+[cols="1,2"]
+|===
+|Identifiant livrable | Description
+
+|DOC001
+|Documentation utilisateur (peut être multiple, administrateur, utilisateur, …). À chaque sprint ayant ajouté des fonctionnalités utilisateurs, la documentation utilisateur doit être maintenue à jour.
+
+|DOC002
+a|La documentation technique doit être composée :
+
+* d'une description de l'architecture technique du projet 
+* d'une description des technologies utilisées
+* d'une description de points spécifiques techniques particuliers dépendants du projet (par exemple la sécurité sur un projet web, la présentation d'un algorithme complexe, etc.). 
+* Et de tous les éléments demandés par les enseignants évaluateurs.
+
+À chaque sprint, la documentation technique doit être maintenue à jour.
+|===
+
+
