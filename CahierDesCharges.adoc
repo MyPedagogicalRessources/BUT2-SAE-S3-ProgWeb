@@ -310,15 +310,15 @@ Nous travaillons sur des festivals dans lesquels un spectacle n'est programmé q
 
 |TECH001
 |SGBD Relationnel
-|MySQL version 8 ou supérieure
+|MySQL version 5.7 ou supérieure
 
 |TECH002
 |Langages de programmation _back-end_
-|Php version 8 ou supérieure, 
+|Php version 7 ou supérieure, 
 
 |TECH003
 |Langages de programmation _front-end_
-|HTML 5, librairie Bootstrap version 5 ou supérieure pour les apports CSS et Javascript
+|HTML 5, librairie Bootstrap version 4 ou supérieure pour les apports CSS et Javascript
 
 |TECH004
 |Gestion de version de code source
