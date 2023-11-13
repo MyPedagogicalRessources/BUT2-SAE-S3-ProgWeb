@@ -70,7 +70,7 @@ Un intervenant est une personne participant à un spectacle sur scène ou hors s
 * Un prénom
 * Une adresse email
 
-Un intervenant n'est nécessairement un utilisateur de l'application.
+Un intervenant n'est pas nécessairement un utilisateur de l'application.
 
 .Grille journalière contrainte
 Une grille journalière contrainte (GriJ) permet à un organisateur de festival de spécifier les contraintes journalières pour la planification des spectacles.
@@ -204,7 +204,7 @@ Afin de gérer les caractéristiques du spectacle.
 |F003US002
 |Modification des caractéristiques d'un spectacle
 |En tant que responsable d'un spectacle, +
-Je peux modifier les caractéristiques du festival, +
+Je peux modifier les caractéristiques du spectacle, +
 Afin de pouvoir reporter les changements relatifs à ce spectacle en lien avec des aléas.
 
 |F003US003
@@ -217,7 +217,7 @@ Afin de ne pas laisser trainer des données qui ne sont plus utiles sur la plate
 |Accès à la liste de mes spectacles
 |En tant que responsable d'au moins un spectacle, +
 Je peux accéder à la liste des spectacles dont je suis responsable, +
-Afin d'accéder facilement à un festival sur lequel je dois travailler'.
+Afin d'accéder facilement à un spectacle sur lequel je dois travailler'.
 
 |F003US005
 |Ajout d'un intervenant
